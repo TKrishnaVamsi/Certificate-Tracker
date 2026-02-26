@@ -35,7 +35,7 @@ export default function Dashboard() {
 
   return (
     <div className="container">
-      <h1>Certification Dashboard</h1>
+      <h1>Certificate Tracker</h1>
 
       <ReminderBanner certs={certs} />
       <SummaryCards certs={certs} />
